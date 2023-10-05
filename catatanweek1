@@ -1,0 +1,68 @@
+## 📘 My Personal Notes
+
+### 🗓️ Week 1: Introduction to Database (DB)
+
+#### 📍 Definition and Purpose of Database
+Component
+Setup ulang program akses data. Program apa yang di gunakan 
+Semua data itu signiffikan, kalua kehilangan atau bocor akan kacau
+Umumnya ukurannya besar, akan di akses dari berbagai pc,multiple access points
+-mampu menghandle structured dan unstructured data
+-Data itu adalah minyak yang baru istilah databaru
+Purpose of DBMS
+1.	Data redundancy:information could be duplicated in multiple files, leading to multiple copies of the same data 
+2.	Inconsistency:duplicates data ciuldbecome inconsistent if onecopy was update and the other wasn’t
+3.	Difficulty in accessing data:lackig standardizedquery tools 
+4.	Need for new programs:every distinc operation required a separate program increasing development time and complicating maintenance
+5.	Data isolation:data scattered across diffrennt files and formats meant that coleecting specific information was cumbersome requiring manual corelation
+6.	Integrity problems: Data integrity rules were hardcoded into
+7.	applications: : Altering or adding data constraints was diffcult due to their embedding within application code, reducing adaptability
+8.	Atomicity of update: The absence of atomicity meant system failures could leave databases in inconsistent states, such as incomplete fund transfers between accounts.
+9.	Concurrent access issues
+10.	Security problem
+
+
+#### 📍 View of Data
+-data model collection of toold for describing
+Data ;the actual informationthat will be store in data base
+Data relationships : describe how different pieces of data are connected to each other
+Data sematic : the meaning of data. Ex: 
+Data constraints :rules that determine thepermissible value or combinations of  value for  certain data ex:
+a student age cannot be negative
+that an email address must be unique across all records
+data models types:
+relational : organizes data into table
+entity-relationship
+mainly for database design
+relational model : allthe data in the table 
+
+-data abstraction:
+Physical level: 
+Logical level: bagaimana data bse di simpan dan relationshipnya
+View level
+
+#### 📍 DB Languages, Design, Architecture, and Users and Administrator
+A person who has central control over the system is called a database
+administrator (DBA), Functions of a DBA include:
+ㆍ Schema definition
+* Storage structure and access-method definition
+Schema and physical-organization modification
+Granting of authorization for data access
+ㆍRoutine maintenance
+Periodically backing up the database
+Ensuring that enough free disk space is available for normal
+operations, and upgrading disk space as required
+Monitoring jobs running on the database
+UNTUK MENGAKSES data kita di database SQL  
+DDL untuk buat table pertama kali
+Kolom 
+ID CHAR (5), ID Harus unique primary key
+NAMA VARCHAR (20),
+
+... (dan seterusnya untuk sub-topik lainnya di Minggu 1)
+
+---
+
+(_Template di atas dapat diulangi untuk minggu-minggu berikutnya dengan topik dan sub-topik yang relevan._)
+
+---
